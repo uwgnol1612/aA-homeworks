@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  nginx:
+    build: ./
+    image: nginx:1.15-alpine
+    ports: 
+      - "81:80"
